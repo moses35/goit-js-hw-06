@@ -16,7 +16,7 @@ const gallery = document.querySelector('.gallery');
 const header = document.querySelector('head');
 
 const styles =
-  '<style> .list {display: flex; list-style: none;} img {width: 420px; height: 280px; display: block;}</style>';
+  '<style> .list {display: flex; list-style: none; padding: 0; justify-content: center;} img {width: 420px; height: 280px; display: block;}</style>';
 
 gallery.classList.add('list');
 
