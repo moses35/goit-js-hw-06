@@ -15,13 +15,13 @@ function onInputChange(event) {
 }
 
 function onCrateBtnClick() {
-  //додаємо елементи
+  //add elements
   createBoxes(amount);
   box.append(...elements);
 }
 
 function onDestroyBtnClick() {
-  //видаляємо елементи
+  //destroy elements
   box.innerHTML = '';
   controls.value = '';
   elements.length = 0;
@@ -29,7 +29,7 @@ function onDestroyBtnClick() {
 }
 
 function createBoxes(amount) {
-  //створюємо елементи
+  //create elements
   let size = 30;
 
   for (let i = 0; i < amount; i += 1) {
